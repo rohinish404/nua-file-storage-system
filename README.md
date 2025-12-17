@@ -1,6 +1,6 @@
 # nua-assignment
 
-This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines React, React Router, Express, and more.
+live-url - https://nua-file-storage-system-web.vercel.app/
 
 ## Features
 
@@ -55,12 +55,12 @@ The API is running at [http://localhost:3000](http://localhost:3000).
 ```
 nua-assignment/
 ├── apps/
-│   ├── web/         # Frontend application (React + React Router)
-│   └── server/      # Backend API (Express)
+│   ├── web/        
+│   └── server/      
 ├── packages/
-│   ├── api/         # API layer / business logic
-│   ├── auth/        # Authentication configuration & logic
-│   └── db/          # Database schema & queries
+│   ├── config/        
+│   ├── auth/       
+│   └── db/         
 ```
 
 ## Available Scripts
