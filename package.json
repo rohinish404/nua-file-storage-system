@@ -1,0 +1,31 @@
+{
+  "name": "nua-assignment",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "check-types": "turbo check-types",
+    "dev:native": "turbo -F native dev",
+    "dev:web": "turbo -F web dev",
+    "dev:server": "turbo -F server dev",
+    "db:push": "turbo -F @nua-assignment/db db:push",
+    "db:studio": "turbo -F @nua-assignment/db db:studio",
+    "db:generate": "turbo -F @nua-assignment/db db:generate",
+    "db:migrate": "turbo -F @nua-assignment/db db:migrate"
+  },
+  "dependencies": {
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "turbo": "^2.6.3",
+    "typescript": "catalog:",
+    "@types/node": "^22.13.11"
+  },
+  "packageManager": "pnpm@10.22.0"
+}
